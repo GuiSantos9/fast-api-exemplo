@@ -1,0 +1,19 @@
+[project]
+name = "fast-api-estudo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Guilherme Augusto dos Santos", email = "guilhermeaugusto923@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard,standart]>=0.141.1",
+]
+
+[project.scripts]
+fast-api-estudo = "fast_api_estudo:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
